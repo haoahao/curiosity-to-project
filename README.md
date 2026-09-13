@@ -48,12 +48,3 @@
     └── case-study-luo-angge.md
 ```
 
-## 啟用 GitHub Pages
-
-1. 把這個 repo push 上 GitHub 後，到該 repo 的 **Settings → Pages**。
-2. 「Build and deployment」的 **Source** 選 **Deploy from a branch**。
-3. **Branch** 選 `main`，資料夾選 `/ (root)`，按 **Save**。
-4. 等 1-2 分鐘，重新整理該頁面，會出現網址（格式為 `https://YOUR-USERNAME.github.io/curiosity-to-project/`）。這個網址就是給學生看的網頁版，會自動用 `index.md` 當首頁。
-5. 之後每次 `git push` 更新內容，網頁會在幾分鐘內自動重新部署，不需要再手動設定。
-
-> 若 repo 名稱不是 `curiosity-to-project`，網址路徑會跟著變成你實際的 repo 名稱。
